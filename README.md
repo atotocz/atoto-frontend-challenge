@@ -79,11 +79,10 @@ type CartItem = {
 Košík určitého prodejce. V rámci aplikace prosím o použití prvního nalezeného košíku jakožto hlavního (tedy toho, ke kterému se vytvářejí alternativy).
 
 ```
-type Cart: 
-	{
-		items: CartItem[],
-		provider: Provider
-	}
+type Cart = {
+	items: CartItem[],
+	provider: Provider
+}
 ```
 
 > To je vše. Hodně štěstí!
